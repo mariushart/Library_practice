@@ -19,9 +19,13 @@ class Author(object):
     def __init__(self, name, gender):
         self.name = name
         self.gender = gender
+        self.books = []
 
     def is_scifi_author(self):
-        pass
+        for book in self.books:
+            if book.genre == "scifi":
+                return True
+        return False
         
 if __name__ == "__main__":
     embed()
