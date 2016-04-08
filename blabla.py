@@ -3,7 +3,7 @@
 from IPython import embed
 
 
-class Bog(object):
+class Book(object):
 
     def __init__(self, title, isbn, genre):
         self.title = title
