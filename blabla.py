@@ -16,7 +16,7 @@ class Book(object):
         return False
 
 class Author(object):
-    def _init_(self, name, gender):
+    def __init__(self, name, gender):
         self.name = name
         self.gender = gender
 
