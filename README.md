@@ -1,5 +1,5 @@
 # Library_practice
 
-==Repo on various training
+## Repo on various training
 
-Mileage will vary
+**Mileage will vary**
